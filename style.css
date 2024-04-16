@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-image: url(https://s2.glbimg.com/kZt6IsTP5SRswZKrVj0RODGALTk=/smart/e.glbimg.com/og/ed/f/original/2020/06/01/viagens_4.jpg);
+}
+
+.caixa-maior {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #0ea0c5;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  gap: 35px;
+  opacity: 0.8;
+
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  padding: 6px 16px;
+ width: 200px;
+}
+
+.inp-cep {
+  display: flex;
+  border-radius: 3px;
+  width: 250px;
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #0ebcc2;
+	padding: .4em;
+
+}
+
+.inp {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.dad {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  font-size: 11px;
+}
+
+.bu {
+  display: flex;
+  flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  color: #606060;
+  font-size: 40px;
+}
+
+.lab {
+  font-size: 18px;
+}
